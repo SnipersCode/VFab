@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 870c0cd90affbb9478941e0478e8ee4a
+timeCreated: 1462650945
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - GoodDie: {fileID: 183314, guid: 48739d207d94dff419302016fe6762c2, type: 2}
+  - BadDie: {fileID: 102984, guid: 47b4ee200d799314299a590ec427d4e4, type: 2}
+  - NonDie: {fileID: 163166, guid: dff6d9eeea0139b41a3f3998b44f4fd3, type: 2}
+  - DieGroup: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
