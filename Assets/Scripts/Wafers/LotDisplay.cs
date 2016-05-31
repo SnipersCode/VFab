@@ -45,6 +45,13 @@ public class LotDisplay : MonoBehaviour, IWaferUserInterface, ILotInterface
 
     private void Start()
     {
+        // Bandaid for ScrollRect Display Build Error
+        GetComponent<CanvasGroup>().alpha = 1;
+        foreach (var component in GetComponentsInChildren<ScrollRect>())
+        {
+            component.verticalNormalizedPosition = 1;
+        }
+
         Reset();
     }
 

@@ -39,6 +39,13 @@ public class WaferDisplay : MonoBehaviour, IWaferUserInterface
     // ReSharper disable once UnusedMember.Local
     private void Start()
     {
+        // Bandaid for ScrollRect Display Build Error
+        GetComponent<CanvasGroup>().alpha = 1;
+        foreach (var component in GetComponentsInChildren<ScrollRect>())
+        {
+            component.verticalNormalizedPosition = 1;
+        }
+
         Reset();
     }
 
